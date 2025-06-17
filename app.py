@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
+import font_config  # フォント設定をインポート
+
 
 # 日本語フォントを設定
 rcParams['font.family'] = 'Meiryo'  # Windowsの場合は「Meiryo」を指定
